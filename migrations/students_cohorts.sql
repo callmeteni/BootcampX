@@ -20,3 +20,5 @@ SELECT * FROM students;
 SELECT * FROM cohorts;
 
 SELECT count(*) FROM students;
+
+SELECT id,name,email,cohort_id FROM students ORDER BY cohort_id;
